@@ -1,16 +1,45 @@
-# React + Vite
+Dragon News 📰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dragon News is a modern, newspaper-style web application built with React, React Router, HTML, and CSS. It provides users with the latest news across multiple categories including sports, entertainment, politics, international news, games, and more. The app is fully responsive, interactive, and beginner-friendly.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Local JSON Data Source: All news articles are stored locally in a JSON file for easy management and faster loading.
 
-## React Compiler
+Category-wise News: Users can explore news by categories like Sports, Entertainment, Politics, Games, and more.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dynamic Routes: Each news article has its own page with a unique URL for easy navigation and sharing.
 
-## Expanding the ESLint configuration
+Protected Routes: Some pages/features are accessible only when needed, ensuring smooth user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Bookmark Functionality: Users can save their favorite articles for quick access later.
+
+Responsive UI: Works perfectly on mobile, tablet, and desktop screens.
+
+Newspaper-style Layout: A clean, classic design for easy reading and navigation.
+
+Tech Stack
+
+Frontend: React, React Router, HTML5, CSS3
+
+Data Source: Local JSON files
+
+How it Works
+
+News articles are fetched from a local JSON file.
+
+Users can navigate through different categories using the main menu.
+
+Clicking on an article opens a dynamic route showing full details.
+
+Users can bookmark articles to save them locally for later reading.
+
+The UI adjusts seamlessly across all device sizes for a smooth reading experience.
+
+Future Improvements
+
+Integrate live news API to fetch real-time news updates.
+
+Add search functionality to find articles quickly.
+
+Enhance user authentication for personalized bookmarks and preferences.
